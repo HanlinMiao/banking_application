@@ -1,5 +1,4 @@
-"""
-RUNNING THE TESTS:
+# RUNNING THE TESTS
 
 1. Setup test environment:
    pip install pytest pytest-django pytest-cov factory-boy freezegun
@@ -27,7 +26,7 @@ RUNNING THE TESTS:
 8. Run specific test method:
    python manage.py test banking.tests.test_views.AccountViewTestCase.test_create_account
 
-WHAT THE TESTS COVER:
+# WHAT THE TESTS COVER:
 
 ✅ Model Tests:
    - Model creation and validation
@@ -65,7 +64,7 @@ WHAT THE TESTS COVER:
    - Database query efficiency
    - Response time validation
 
-TEST COVERAGE INCLUDES:
+# TEST COVERAGE INCLUDES:
 - User registration and authentication
 - Account management (CRUD operations)
 - Money deposits and withdrawals
@@ -79,4 +78,3 @@ TEST COVERAGE INCLUDES:
 
 The test suite provides comprehensive coverage of all banking functionality
 and ensures the API behaves correctly under various conditions.
-"""
